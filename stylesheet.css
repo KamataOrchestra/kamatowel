@@ -9,20 +9,21 @@
   background-color: #011640;
   border-radius: 50%;
   text-decoration: none;
-  bottom: 50px;
+  bottom: 10px;
   color: #fff;
-  font-size: 14px;
-  height: 60px;
-  line-height: 60px;
+  font-size: 10px;
+  height: 30px;
+  line-height: 30px;
   outline: 0;
   position: fixed;
-  right: 50px;
+  right: 10px;
   text-align: center;
-  width: 60px;
+  width: 30px;
   -webkit-transition: -webkit-transform 0.3s linear;
   transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  z-index: 100;
 }
 
 #return-top:hover {
@@ -34,20 +35,21 @@
   background-color: #D98E32;
   text-decoration: none;
   border-radius: 5px;
-  bottom: 50px;
+  bottom: 10px;
   color: #fff;
-  font-size: 14px;
-  height: 50px;
+  font-size: 10px;
+  height: 30px;
   line-height: 50px;
   outline: 0;
   position: fixed;
-  right: 130px;
+  right: 40px;
   text-align: center;
-  width: 100px;
+  width: 50px;
   -webkit-transition: -webkit-transform 0.3s linear;
   transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  z-index: 100;
 }
 
 #buy:hover {
@@ -100,6 +102,22 @@ header .header-img img {
 
 @media screen and (min-width: 1024px) {
   /*　画面サイズが1024pxからはここを読み込む　*/
+  #return-top {
+    bottom: 50px;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+    right: 50px;
+    width: 60px;
+  }
+  #buy {
+    bottom: 50px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    right: 130px;
+    width: 100px;
+  }
   .mainWrapper {
     width: 70%;
     margin: auto;
