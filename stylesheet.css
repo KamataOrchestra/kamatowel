@@ -9,7 +9,7 @@
   background-color: #011640;
   border-radius: 50%;
   text-decoration: none;
-  bottom: 10px;
+  bottom: 0px;
   color: #fff;
   font-size: 10px;
   height: 45px;
@@ -35,14 +35,14 @@
   background-color: #D98E32;
   text-decoration: none;
   border-radius: 5px;
-  bottom: 10px;
+  bottom: 0px;
   color: #fff;
   font-size: 10px;
   height: 45px;
   line-height: 45px;
   outline: 0;
   position: fixed;
-  right: 55px;
+  right: 65px;
   text-align: center;
   width: 70px;
   -webkit-transition: -webkit-transform 0.3s linear;
