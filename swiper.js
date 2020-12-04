@@ -1,6 +1,7 @@
 var mySwiper = new Swiper(".swiper-container", {
     // オプションパラメータ(一部のみ抜粋)
     loop: true, // 最後のスライドまで到達した場合、最初に戻らずに続けてスライド可能にするか。
+    loopedSlides:4,
     speed: 600, // スライドが切り替わるトランジション時間(ミリ秒)。
     slidesPerView: 1, // 何枚のスライドを表示するか
     spaceBetween: 10, // スライド間の余白サイズ(ピクセル)
@@ -37,23 +38,5 @@ var mySwiper = new Swiper(".swiper-container", {
       el: ".swiper-pagination" // ページネーションを表示するセレクタ
     }
   
-  });
-  
-  var swiper = new Swiper(".swiper-container", {
-    slidesPerView: 1,
-    breakpoints: {
-      // 768px以上の場合
-      768: {
-        slidesPerView: 1
-      },
-      // 980px以上の場合
-      980: {
-        slidesPerView: 1
-      },
-      // 1200px以上の場合
-      1200: {
-        slidesPerView: 1
-      }
-    }
   });
   
