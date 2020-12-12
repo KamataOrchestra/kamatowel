@@ -70,6 +70,10 @@ header .header-img img {
   width: 15%;
 }
 
+.mainWrapper {
+  overflow: hidden;
+}
+
 .swiper-slide .item-img {
   text-align: center;
 }
@@ -101,7 +105,7 @@ header .header-img img {
 }
 
 .about {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .about .about-text {
@@ -122,7 +126,7 @@ header .header-img img {
 }
 
 .about img {
-  width: 100%;
+  width: 95%;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   -webkit-box-shadow: 15px 15px 0px 0 #e6e6e6;
@@ -136,6 +140,74 @@ header .header-img img {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   /*変化に掛かる時間*/
+}
+
+.article-top {
+  font-size: 22px;
+  font-weight: 100;
+  background-color: #595959;
+  border-radius: 2px;
+  color: white;
+  margin: auto;
+  width: 24%;
+  opacity: 0.7;
+}
+
+.article-top p {
+  text-align: center;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.article a {
+  text-decoration: none;
+}
+
+.article h3 {
+  margin-left: 10px;
+}
+
+.article img {
+  width: 100%;
+  -webkit-box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  opacity: 1;
+}
+
+.article img:hover {
+  opacity: 0.6;
+}
+
+.article .article-contents1 {
+  margin-bottom: 30px;
+}
+
+.article .article-contents2 {
+  margin-bottom: 30px;
+}
+
+.article .article-contents3 {
+  margin-bottom: 30px;
+}
+
+.article p {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #595959;
 }
 
 footer {
@@ -262,6 +334,31 @@ footer .fa-twitter:hover {
   }
   .about img {
     width: 90%;
+  }
+  .article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .article img {
+    width: 100%;
+  }
+  .article .article-contents1 {
+    width: 50%;
+    margin-left: auto;
+  }
+  .article .article-contents2 {
+    width: 50%;
+  }
+  .article .article-contents3 {
+    width: 50%;
+    margin-left: auto;
   }
   .footer-img img {
     width: 7% !important;
