@@ -35,14 +35,14 @@
   background-color: #D98E32;
   text-decoration: none;
   border-radius: 5px;
-  bottom: 10px;
+  top: 10px;
   color: #fff;
   font-size: 10px;
-  height: 50px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   outline: 0;
   position: fixed;
-  right: 70px;
+  right: 10px;
   text-align: center;
   width: 70px;
   -webkit-transition: -webkit-transform 0.3s linear;
