@@ -93,6 +93,10 @@ header .header-img img {
   font-size: 14px;
   margin: 10px;
   margin-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .item-text p {
@@ -103,6 +107,35 @@ header .header-img img {
 .swiper-button-next, .swiper-button-prev {
   display: none;
   /*ナビゲーションはPCのみ表示*/
+}
+
+.to-shop {
+  display: block;
+  background-color: #D98E32;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 14px;
+  -webkit-transition: -webkit-transform 0.3s linear;
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  margin-top: 15px !important;
+  margin: auto;
+}
+
+.to-shop a {
+  text-decoration: none;
+}
+
+.to-shop a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+.to-shop:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .about {
